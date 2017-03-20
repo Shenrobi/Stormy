@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBDE078E42608BDB63D2BAE8 /* Pods_Stormy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6A1FAF4EE25DE9F6482613 /* Pods_Stormy.framework */; };
 		E406E65D1E69C0DB00959F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E65C1E69C0DB00959F92 /* AppDelegate.swift */; };
-		E406E65F1E69C0DB00959F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E65E1E69C0DB00959F92 /* ViewController.swift */; };
+		E406E65F1E69C0DB00959F92 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E65E1E69C0DB00959F92 /* WeatherVC.swift */; };
 		E406E6621E69C0DB00959F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E406E6601E69C0DB00959F92 /* Main.storyboard */; };
 		E406E6641E69C0DB00959F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E406E6631E69C0DB00959F92 /* Assets.xcassets */; };
 		E406E6671E69C0DB00959F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E406E6651E69C0DB00959F92 /* LaunchScreen.storyboard */; };
 		E406E6721E69C0DB00959F92 /* StormyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E6711E69C0DB00959F92 /* StormyTests.swift */; };
 		E406E67D1E69C0DB00959F92 /* StormyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E67C1E69C0DB00959F92 /* StormyUITests.swift */; };
+		E406E68C1E69CE8600959F92 /* SF-UI-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E406E68A1E69CE8600959F92 /* SF-UI-Display-Thin.otf */; };
+		E406E68D1E69CE8600959F92 /* SF-UI-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E406E68B1E69CE8600959F92 /* SF-UI-Display-Ultralight.otf */; };
+		E406E6901E69CF4500959F92 /* SF-UI-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E406E68E1E69CF4500959F92 /* SF-UI-Display-Light.otf */; };
+		E406E6911E69CF4500959F92 /* SF-UI-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E406E68F1E69CF4500959F92 /* SF-UI-Display-Regular.otf */; };
+		E406E6931E69DBD500959F92 /* SF-UI-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E406E6921E69DBD500959F92 /* SF-UI-Display-Medium.otf */; };
+		E406E6951E69DC4500959F92 /* SF-UI-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E406E6941E69DC4500959F92 /* SF-UI-Display-Semibold.otf */; };
+		E406E6971E6A1B9300959F92 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E6961E6A1B9300959F92 /* CurrentWeather.swift */; };
+		E406E6A01E6A1DC500959F92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E69F1E6A1DC500959F92 /* Constants.swift */; };
+		E406E6A21E6A20C900959F92 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E6A11E6A20C900959F92 /* Location.swift */; };
+		E406E6A41E6A2C8000959F92 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E6A31E6A2C8000959F92 /* WeatherCell.swift */; };
+		E406E6A61E6A2D7A00959F92 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406E6A51E6A2D7A00959F92 /* Forecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B4F22BD0CABA42192AA9724 /* Pods-Stormy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stormy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stormy/Pods-Stormy.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6A1FAF4EE25DE9F6482613 /* Pods_Stormy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stormy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E406E6591E69C0DB00959F92 /* Stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E406E65C1E69C0DB00959F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E406E65E1E69C0DB00959F92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E406E65E1E69C0DB00959F92 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		E406E6611E69C0DB00959F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E406E6631E69C0DB00959F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E406E6661E69C0DB00959F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,18 @@
 		E406E6781E69C0DB00959F92 /* StormyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StormyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E406E67C1E69C0DB00959F92 /* StormyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormyUITests.swift; sourceTree = "<group>"; };
 		E406E67E1E69C0DB00959F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E406E68A1E69CE8600959F92 /* SF-UI-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Thin.otf"; sourceTree = "<group>"; };
+		E406E68B1E69CE8600959F92 /* SF-UI-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		E406E68E1E69CF4500959F92 /* SF-UI-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Light.otf"; sourceTree = "<group>"; };
+		E406E68F1E69CF4500959F92 /* SF-UI-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Regular.otf"; sourceTree = "<group>"; };
+		E406E6921E69DBD500959F92 /* SF-UI-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Medium.otf"; sourceTree = "<group>"; };
+		E406E6941E69DC4500959F92 /* SF-UI-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Semibold.otf"; sourceTree = "<group>"; };
+		E406E6961E6A1B9300959F92 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		E406E69F1E6A1DC500959F92 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E406E6A11E6A20C900959F92 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E406E6A31E6A2C8000959F92 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		E406E6A51E6A2D7A00959F92 /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		F094B57416C2D8720B5A030F /* Pods-Stormy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stormy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stormy/Pods-Stormy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDE078E42608BDB63D2BAE8 /* Pods_Stormy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127EF05E8C960205AF011550 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4F22BD0CABA42192AA9724 /* Pods-Stormy.debug.xcconfig */,
+				F094B57416C2D8720B5A030F /* Pods-Stormy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B88D8D9EFBDC553FA785987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A1FAF4EE25DE9F6482613 /* Pods_Stormy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E406E6501E69C0D900959F92 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				E406E6701E69C0DB00959F92 /* StormyTests */,
 				E406E67B1E69C0DB00959F92 /* StormyUITests */,
 				E406E65A1E69C0DB00959F92 /* Products */,
+				127EF05E8C960205AF011550 /* Pods */,
+				5B88D8D9EFBDC553FA785987 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +143,12 @@
 		E406E65B1E69C0DB00959F92 /* Stormy */ = {
 			isa = PBXGroup;
 			children = (
-				E406E65C1E69C0DB00959F92 /* AppDelegate.swift */,
-				E406E65E1E69C0DB00959F92 /* ViewController.swift */,
-				E406E6601E69C0DB00959F92 /* Main.storyboard */,
-				E406E6631E69C0DB00959F92 /* Assets.xcassets */,
-				E406E6651E69C0DB00959F92 /* LaunchScreen.storyboard */,
-				E406E6681E69C0DB00959F92 /* Info.plist */,
+				E406E69D1E6A1D8400959F92 /* Storyboards */,
+				E406E69C1E6A1D6500959F92 /* Resources */,
+				E406E69B1E6A1D2900959F92 /* Model */,
+				E406E69A1E6A1D2300959F92 /* View */,
+				E406E6991E6A1D1500959F92 /* Controller */,
+				E406E6981E6A1D0200959F92 /* Supporting Files */,
 			);
 			path = Stormy;
 			sourceTree = "<group>";
@@ -125,6 +171,65 @@
 			path = StormyUITests;
 			sourceTree = "<group>";
 		};
+		E406E6981E6A1D0200959F92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E406E69F1E6A1DC500959F92 /* Constants.swift */,
+				E406E65C1E69C0DB00959F92 /* AppDelegate.swift */,
+				E406E6631E69C0DB00959F92 /* Assets.xcassets */,
+				E406E6681E69C0DB00959F92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E406E6991E6A1D1500959F92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E406E65E1E69C0DB00959F92 /* WeatherVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E406E69A1E6A1D2300959F92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E406E6A31E6A2C8000959F92 /* WeatherCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E406E69B1E6A1D2900959F92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E406E6961E6A1B9300959F92 /* CurrentWeather.swift */,
+				E406E6A11E6A20C900959F92 /* Location.swift */,
+				E406E6A51E6A2D7A00959F92 /* Forecast.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E406E69C1E6A1D6500959F92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E406E68A1E69CE8600959F92 /* SF-UI-Display-Thin.otf */,
+				E406E68B1E69CE8600959F92 /* SF-UI-Display-Ultralight.otf */,
+				E406E68E1E69CF4500959F92 /* SF-UI-Display-Light.otf */,
+				E406E68F1E69CF4500959F92 /* SF-UI-Display-Regular.otf */,
+				E406E6921E69DBD500959F92 /* SF-UI-Display-Medium.otf */,
+				E406E6941E69DC4500959F92 /* SF-UI-Display-Semibold.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E406E69D1E6A1D8400959F92 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E406E6601E69C0DB00959F92 /* Main.storyboard */,
+				E406E6651E69C0DB00959F92 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E406E6811E69C0DC00959F92 /* Build configuration list for PBXNativeTarget "Stormy" */;
 			buildPhases = (
+				D227B267C09EF61B4200A276 /* [CP] Check Pods Manifest.lock */,
 				E406E6551E69C0D900959F92 /* Sources */,
 				E406E6561E69C0D900959F92 /* Frameworks */,
 				E406E6571E69C0D900959F92 /* Resources */,
+				F65BBFC18C5CE1EA080EE291 /* [CP] Embed Pods Frameworks */,
+				9347CBEF3648A0FB71C82D29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +343,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E406E6911E69CF4500959F92 /* SF-UI-Display-Regular.otf in Resources */,
+				E406E68C1E69CE8600959F92 /* SF-UI-Display-Thin.otf in Resources */,
 				E406E6671E69C0DB00959F92 /* LaunchScreen.storyboard in Resources */,
+				E406E6901E69CF4500959F92 /* SF-UI-Display-Light.otf in Resources */,
+				E406E6931E69DBD500959F92 /* SF-UI-Display-Medium.otf in Resources */,
 				E406E6641E69C0DB00959F92 /* Assets.xcassets in Resources */,
+				E406E68D1E69CE8600959F92 /* SF-UI-Display-Ultralight.otf in Resources */,
 				E406E6621E69C0DB00959F92 /* Main.storyboard in Resources */,
+				E406E6951E69DC4500959F92 /* SF-UI-Display-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +371,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9347CBEF3648A0FB71C82D29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stormy/Pods-Stormy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D227B267C09EF61B4200A276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F65BBFC18C5CE1EA080EE291 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stormy/Pods-Stormy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E406E6551E69C0D900959F92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E406E65F1E69C0DB00959F92 /* ViewController.swift in Sources */,
+				E406E65F1E69C0DB00959F92 /* WeatherVC.swift in Sources */,
+				E406E6971E6A1B9300959F92 /* CurrentWeather.swift in Sources */,
+				E406E6A61E6A2D7A00959F92 /* Forecast.swift in Sources */,
+				E406E6A41E6A2C8000959F92 /* WeatherCell.swift in Sources */,
+				E406E6A21E6A20C900959F92 /* Location.swift in Sources */,
 				E406E65D1E69C0DB00959F92 /* AppDelegate.swift in Sources */,
+				E406E6A01E6A1DC500959F92 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +578,7 @@
 		};
 		E406E6821E69C0DC00959F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4F22BD0CABA42192AA9724 /* Pods-Stormy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8P48YRNL43;
@@ -424,6 +592,7 @@
 		};
 		E406E6831E69C0DC00959F92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F094B57416C2D8720B5A030F /* Pods-Stormy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8P48YRNL43;
@@ -512,6 +681,7 @@
 				E406E6831E69C0DC00959F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E406E6841E69C0DC00959F92 /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +690,7 @@
 				E406E6861E69C0DC00959F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E406E6871E69C0DC00959F92 /* Build configuration list for PBXNativeTarget "StormyUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +699,7 @@
 				E406E6891E69C0DC00959F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
